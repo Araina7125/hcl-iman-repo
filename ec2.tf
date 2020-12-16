@@ -5,6 +5,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = "Iman-aws-ec2-instance"
     Env = "Test"
+    client = "hcl"
   }
 }
 
